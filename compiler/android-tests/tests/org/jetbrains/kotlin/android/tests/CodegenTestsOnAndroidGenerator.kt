@@ -225,7 +225,7 @@ class CodegenTestsOnAndroidGenerator private constructor(private val pathManager
                     continue
                 }
 
-                if (!InTextDirectivesUtils.isPassingTarget(TargetBackend.JVM, file)) {
+                if (!InTextDirectivesUtils.isPassingTarget(TargetBackend.ANDROID, file)) {
                     continue
                 }
 
